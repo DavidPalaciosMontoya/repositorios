@@ -1,0 +1,52 @@
+@import url(https://use.fontawesome.com/releases/v6.1.0/css/all.css);
+body {
+    background-image: url('../images/fondo1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right, auto;
+}
+.contenedor1 {
+    background-image: url('../images/perfil.jpg'), url('../images/banner.png');
+    background-position: top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 195px, 900px;
+    height: 200px;
+    width: 100%;
+}
+
+img {
+    /* background-image: url('../images/perfil.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 195px;
+    height: 200px;
+    width: 200px;
+}
+
+.contenedor2 {
+    background-color: rgb(93, 93, 177);
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#999
+    
+}
+
+
